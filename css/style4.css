@@ -1,0 +1,229 @@
+         #searchbox{
+		 position:absolute;
+    background-color: #141F1F;
+    background-image: linear-gradient(#fff, #141F1F);
+    border-radius: 40px;    
+    border-width: 1px;
+    border-style: solid;
+    border-color: #c4d9df #a4c3ca #83afb7;            
+    width: 320px;
+    height: 35px;
+    padding: 8px;
+    margin: 0px auto 5px;
+    overflow: hidden; /* Clear floats */
+	bottom:480px;
+}
+header{
+
+    background-color:Grey;
+
+    background-image: -webkit-gradient(linear, 0% 0%,0% 0%, from(Grayy), to(Balack));
+
+    background-image: -webkit-linear-gradient(top, Black, gray);
+
+    background-image: -moz-linear-gradient(top, Black, gray);
+
+    background-image: -ms-linear-gradient(top, Black, gray);
+
+    background-image: -o-linear-gradient(top, Black, gray);
+margin:auto;
+height:1000px:
+width:500px;
+padding:8px;
+background-color:black;
+
+
+}
+h1 {
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	position:center;
+	bottom:0px;
+}
+h2{
+
+  font-size: 30px;
+  background: -webkit-linear-gradient(#eee, #333);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+	position:center;
+	height:55px;
+	bottom:0px;
+}
+
+
+
+* {
+	margin: 0;
+	padding: 0;
+	outline: none;
+	
+	-webkit-box-sizing: border-box;
+	-moz-box-sizing: border-box;
+	box-sizing: border-box;
+}.button {
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 10px 10px;
+	bottom:555px;
+
+
+	position:absolute;
+	-webkit-border-radius: 7px;
+}
+
+.button.black {
+	 background-image: -webkit-gradient(linear, left top, left bottom, 
+		 from(#7d828c),
+		 color-stop(0.5, #303749), 
+		 color-stop(0.5, #121a2e), 
+		 to(#121a2e));
+	 border: solid 1px rgba(79, 79, 79, 0.75);
+ }
+.button.black:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, 
+		from(#4286f5), 
+		color-stop(0.5, #4286f5),
+		color-stop(0.5, #194fdb),
+		to(#194fdb));
+
+}
+body {
+	border:1px solid black;
+
+   background-repeat: no-repeat;
+   background-attachment: fixed;
+    background-position: center;
+    color: #444;
+    -webkit-font-smoothing: antialiased;
+    font-family: 'Helvetica Neue', sans-serif;
+    font-size: 15px;
+    font-weight: 400;
+    width: 330px;
+    height: 540px;
+    min-height: 300%;
+    text-rendering: optimizeLegibility;
+	
+	  margin:50px auto;
+	
+	position:center;
+}
+
+
+
+p {
+  font-family: georgia;
+  font-size: 1rem;
+  line-height: 25px;
+  margin: 24px 0;
+  text-align: center;
+}
+
+.cancel{
+	color: #fff;
+	text-decoration: none;
+	display: inline-block;
+	padding: 15px 10px;
+	bottom:78px;
+	align:center;
+
+	position:absolute;
+	-webkit-border-radius: 7px;
+}
+
+}
+.cancel.button {
+	 background-image: -webkit-gradient(linear, left top, left bottom, 
+		 from(#7d828c),
+		 color-stop(0.5, #303749), 
+		 color-stop(0.5, #121a2e), 
+		 to(#121a2e));
+	 border: solid 1px rgba(79, 79, 79, 0.75);
+ }
+.cancel.button:hover {
+	background-image: -webkit-gradient(linear, left top, left bottom, 
+		from(#4286f5), 
+		color-stop(0.5, #4286f5),
+		color-stop(0.5, #194fdb),
+		to(#194fdb));
+
+}
+
+
+
+div.wrapper {
+  margin:50px auto;
+  width: 350px;
+  overflow-y:scroll;
+    height:363px;
+    width:328px;
+	position:absolute;
+	float:right;
+	bottom:65px;
+}
+
+
+
+nav.vertical {
+  border-radius: 10px;
+  box-shadow: 0 0 10px rgba(0,0,0,.15);
+ 
+ 
+}
+
+  
+
+    nav.vertical > ul > li {
+      display: block;
+    }
+
+      nav.vertical > ul > li > a {
+        background-color: rgb(300, 34, 60);
+        
+        background-image: linear-gradient(135deg, rgb(114, 51, 98), rgb(157, 34, 60));
+        border-bottom: 1px solid rgba(255,255,255,.1);
+        box-shadow: inset 0 1px 1px rgba(0,0,0,.1), 0 1px 1px rgba(0,0,0,.1);
+        color: rgb(255,255,255);
+        display: block;
+        font-size: .85rem;
+        font-weight: 200;
+        height: 50px;
+        letter-spacing: .5rem;
+        line-height: 25px;
+        text-shadow: 0 1px 1px rgba(0,0,0,.1);
+        
+        transition: all .1s ease;
+        text-decoration: none;
+		
+      }
+
+        nav.vertical > ul > li > a:hover {
+         background-color: rgb(114, 51, 98);
+       
+         background-image: linear-gradient(150deg, rgb(114, 51, 98), rgb(114, 51, 98)); 
+         cursor: pointer;
+        }
+footer{
+ background-color:Grey;
+
+    background-image: -webkit-gradient(linear, 0% 0%,0% 0%, from(Grayy), to(Balack));
+
+    background-image: -webkit-linear-gradient(top, Black, gray);
+
+    background-image: -moz-linear-gradient(top, Black, gray);
+
+    background-image: -ms-linear-gradient(top, Black, gray);
+
+    background-image: -o-linear-gradient(top, Black, gray);
+margin:auto;
+height:50px;
+width:329px;
+padding:8px;
+background-color:black;
+position:absolute;
+bottom:79px;
+}        
+
